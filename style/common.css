@@ -1,0 +1,116 @@
+
+div,section,aside,p,article{
+    text-align: center;
+}
+ul,li{
+    list-style: none;
+}
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+
+/*导航栏*/
+.navbar{
+    display: block;
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    position: relative;
+}
+.navbar .navbar-wrap{
+    max-width: 1000px;
+    height: inherit;
+    position: relative;
+}
+.navbar .nav-logo{
+    width: 140px;
+    height: 70px;
+    background: #f4a53d;
+    float: left;
+}
+.navbar .nav-list{
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    margin: 0 100px;
+}
+.navbar .nav-list li{
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    font-size: 16px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: #555;
+}
+.navbar .nav-list li:hover,
+.navbar .nav-list li:active{
+    color: #f4a53d;
+    border-bottom: solid 5px #f4a53d;
+}
+.nav-btn{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 40px;
+    color: #555;
+    padding: 0;
+}
+.nav-btn:hover,
+.nav-btn:active{
+    color: #f4a53d;
+}
+
+@media all and (max-width: 1200px){
+    .navbar .navbar-wrap{
+        max-width: 900px;
+        height: inherit;
+    }
+}
+@media all and (max-width: 1000px){
+    .navbar .navbar-wrap{
+        max-width: 800px;
+        height: inherit;
+    }
+    .navbar .nav-list{
+        position: absolute;
+        right: 0;
+        overflow: hidden;
+        margin: 0;
+    }
+}
+@media all and (max-width: 800px){
+    .navbar .navbar-wrap{
+        max-width:90%;
+        height: inherit;
+    }
+    .navbar .nav-list li{
+        float: left;
+        height: 70px;
+        line-height: 70px;
+        font-size: 16px;
+        margin: 0 15px;
+        cursor: pointer;
+        transition: 0.2s;
+        color: #555;
+    }
+
+}
+@media all and (max-width: 780px){
+    .navbar .nav-list{
+        position: absolute;
+        right: 0;
+        overflow: hidden;
+        margin: 0;
+        display: none;
+    }
+    .nav-btn{
+        display: block;
+    }
+}
