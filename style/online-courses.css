@@ -1,0 +1,74 @@
+.oc-banner-box{
+    width: 100%;
+    height: 532px;
+    background: url("../img/online-courses/banner.jpg") no-repeat center;
+    background-size: cover;
+}
+.oc-part{
+    padding: 30px 10px;
+
+}
+.oc-card-box{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.oc-card{
+    width: 230px;
+    height: 210px;
+    float: left;
+    margin: 10px 10px;
+    background: #fff;
+    padding: 6px;
+    position: relative;
+    border: solid 3px #fff;
+    transition: 0.2s;
+}
+.oc-card:hover,
+.oc-card:active{
+    border: solid 3px #e58537;
+}
+.oc-card img{
+    width: 100%;
+    height: 125px;
+}
+.oc-card p{
+    text-align: left;
+    font-size: 13px;
+    margin-top: 8px;
+}
+.oc-card .price-tag{
+    position: absolute;
+    left: 5px;;
+    bottom: 10px;
+}
+.oc-part1{
+    background: url("../img/online-courses/1.jpg") no-repeat center;
+    background-size: cover;
+}
+.oc-part1-txt{
+    width: 85%;
+    margin: 10px auto;
+    color: #a79568;
+    text-align: left;
+    font-size: 16px;
+}
+
+.oc-part2{
+    background: url("../img/online-courses/2.jpg") no-repeat center;
+    background-size: cover;
+    min-height: 700px;
+
+
+}
+.oc-part3{
+    background: url("../img/online-courses/3.jpg") no-repeat center;
+    background-size: cover;
+    min-height: 700px;
+}
+.oc-part4{
+    background: url("../img/online-courses/4.jpg") no-repeat center;
+    background-size: cover;
+    min-height: 700px;
+}
+
