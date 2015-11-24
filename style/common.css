@@ -1,4 +1,6 @@
-
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, Verdana, "Trebuchet MS";
+}
 div,section,aside,p,article{
     text-align: center;
 }
@@ -113,4 +115,12 @@ h1,h2,h3,h4{
     .nav-btn{
         display: block;
     }
+}
+.wrap{
+    width: 100%;
+    background: #fff;
+}
+.section-container{
+    max-width: 1000px;
+    margin: 0 auto;
 }

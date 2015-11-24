@@ -1,0 +1,65 @@
+.banner-box{
+    background:url("../img/teachers/teacher-banner.jpg") no-repeat center;
+    background-size: cover;
+    height: 500px;
+}
+.teacher-part-2{
+    background: #ebebeb;
+
+}
+.teacher-box{
+    padding: 30px;
+}
+.title{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.divide-img{
+    width: 350px;
+}
+.teacher-card-box{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+}
+.teacher-card{
+    position: relative;
+    background:#f9f9f9;
+    width: 250px;
+    height: 340px;
+    margin: 15px;
+    float: left;
+    box-shadow: 2px 2px 6px rgba(219, 219, 219, 0.7);
+    overflow: hidden;
+}
+.teacher-card:hover{
+    box-shadow: 2px 2px 6px rgb(197, 197, 197);
+}
+.teacher-card .photo-box{
+    width: 100%;
+    height: 190px;
+    position: relative;
+}
+.teacher-card .photo-box img{
+    width: 100%;
+    height: 100%;
+}
+.talk-cover{
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 0;
+}
+.teacher-card p{
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+}
+.teacher-name{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.teacher-info{
+    font-size: 12px;
+}
