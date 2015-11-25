@@ -24,6 +24,7 @@
 .section2,
 .section4{
     background-size:cover;
+    overflow: hidden;
 }
 
 /*section1*/
