@@ -27,6 +27,7 @@ h1,h2,h3,h4{
 }
 .navbar .navbar-wrap{
     max-width: 1000px;
+    margin: 0 auto;
     height: inherit;
     position: relative;
 }
@@ -111,12 +112,33 @@ h1,h2,h3,h4{
 
 }
 @media all and (max-width: 780px){
+    .navbar .navbar-wrap{
+        max-width: 100%;
+        height: inherit;
+    }
     .navbar .nav-list{
+        width: 100%;
         position: absolute;
+        top: 70px;
         right: 0;
         overflow: hidden;
         margin: 0;
         display: none;
+        background: #fff;
+        color: #555;
+    }
+    .navbar .nav-list ul{
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    .navbar .nav-list li{
+        width: 100%;
+        margin: 0;
+        font-size: 22px;
+        height: 70px;
+        line-height: 70px;
+        border-bottom: solid 1px #e6e6e6;
     }
     .nav-btn{
         display: block;
