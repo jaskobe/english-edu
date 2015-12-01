@@ -10,4 +10,15 @@ $(document).ready(function(){
     function toggleNav(){
         navlist.slideToggle("slow");
     }
+
+    //        回到顶部
+    $(window).scroll(function(){
+        if($(window).scrollTop() >= 700){
+            $('.back-top').fadeIn(300);
+        }else{
+            $('.back-top').fadeOut(300);
+        }
+    })
+    $('.back-top').click(function(){
+        $('html,body').animate({scrollTop: '0px'}, 600);});
 })

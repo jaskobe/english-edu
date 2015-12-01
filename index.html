@@ -48,19 +48,19 @@
         <h1>壹教壹学雅思课堂体系</h1>
         <p>一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～</p>
         <div class="index-system-box">
-            <div class="index-system-card card1 wow bounceInLeft">
+            <div class="index-system-card card1 wow fadeInLeft">
                 <img src="img/index/icon-1.png"  class="system-card-icon">
                 <div class="index-system-card-txt">
                     前期预习分为听说读写四块的内容，团队老师将会进行网络指导，授课，检查。
                 </div>
             </div>
-            <div class="index-system-card card2 wow bounceInDown" >
+            <div class="index-system-card card2 wow fadeInDown" >
                 <img src="img/index/icon-2.png" class="system-card-icon">
                 <div class="index-system-card-txt">
                     前期预习分为听说读写四块的内容，团队老师将会进行网络指导，授课，检查。
                 </div>
             </div>
-            <div class="index-system-card card3 wow bounceInRight">
+            <div class="index-system-card card3 wow fadeInRight">
                 <img src="img/index/icon-3.png" class="system-card-icon">
                 <div class="index-system-card-txt">
                     前期预习分为听说读写四块的内容，团队老师将会进行网络指导，授课，检查。
@@ -72,7 +72,7 @@
 <div class="section section3">
     <div class="section-container">
         <h1>战报战绩</h1>
-        <img src="img/index/3.jpg">
+        <img src="img/index/3.jpg" class="grade-img wow fadeIn">
     </div>
 </div>
 <div class="section section4">
@@ -80,11 +80,11 @@
         <h1>雅思顶尖名师团队，逢考必过</h1>
         <h2>我们的老师经过5次以上选拔培训</h2>
         <h3>1.0，2.0，3.0不断升级，调试为最优秀的师资系统</h3>
-        <div class="teacher-box">
+        <div class="teacher-box wow fadeInUp" >
             <ul>
                 <li>
                     <div class="teacher-card">
-                        <img src="img/index/teacher0.png">
+                        <img src="img/index/teacher0.png" >
                         <div class="teacher-info">
                             <h1>姓名</h1>
                             <p>老师介绍老师介绍老师介绍老师介绍老师介绍老师介绍老师介绍老师介绍老师介绍老师介绍</p>
@@ -145,7 +145,7 @@
 
 <script src="js/wow.js"></script>
 <script>
-    new WOW().init();
+
     $(document).ready(function(){
         var icon = $("img.system-card-icon");
         icon.hover(function(){
@@ -154,6 +154,7 @@
                 icon.removeClass("animated flipInX");
             },1500)
         })
+        new WOW().init();
 
     })
 
@@ -183,6 +184,10 @@
             <a><li >战报战绩</li></a>
         </ul>
     </div>
+</div>
+<!--回到顶部-->
+<div class="back-top">
+    <i class="fa fa-rocket"></i>
 </div>
 </body>
 </html>
