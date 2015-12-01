@@ -10,6 +10,7 @@
     <link href="font/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="style/mui.css" rel="stylesheet">
     <link href="style/common.css" rel="stylesheet">
+    <link href="style/animate.min.css" rel="stylesheet">
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/mui.min.js"></script>
     <script src="js/common.js"></script>
@@ -48,19 +49,19 @@
         <p>一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～一大段介绍文字～</p>
         <div class="index-system-box">
             <div class="index-system-card card1">
-                <img src="img/index/icon-1.png">
+                <img src="img/index/icon-1.png"  class="system-card-icon">
                 <div class="index-system-card-txt">
                     前期预习分为听说读写四块的内容，团队老师将会进行网络指导，授课，检查。
                 </div>
             </div>
-            <div class="index-system-card card2">
-                <img src="img/index/icon-2.png">
+            <div class="index-system-card card2" >
+                <img src="img/index/icon-2.png" class="system-card-icon">
                 <div class="index-system-card-txt">
                     前期预习分为听说读写四块的内容，团队老师将会进行网络指导，授课，检查。
                 </div>
             </div>
             <div class="index-system-card card3">
-                <img src="img/index/icon-3.png">
+                <img src="img/index/icon-3.png" class="system-card-icon">
                 <div class="index-system-card-txt">
                     前期预习分为听说读写四块的内容，团队老师将会进行网络指导，授课，检查。
                 </div>
@@ -141,6 +142,28 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function(){
+        var icon = $("img.system-card-icon");
+        icon.hover(function(){
+            $(this).addClass("animated flipInX");
+            setTimeout(function(){
+                icon.removeClass("animated flipInX");
+            },1500)
+        })
+
+    })
+
+//    function flipInX(){
+//        var icon = $(".system-card-icon");
+//        icon.addClass("animated flipInX");
+//        setTimeout(function(){
+//            $(".system-card-icon").removeClass("animated flipInX");
+//        },500)
+//
+//    }
+</script>
 
 <!--底部导航-->
 <div class="footer">

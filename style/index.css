@@ -1,10 +1,6 @@
 .section{
-    width: 100%;
+    max-width: 100%;
     min-height: 200px;
-}
-.section-container{
-    max-width: 1000px;
-    margin: 0 auto;
 }
 .section1{
     background: url("../img/index/banner-bg.jpg") center no-repeat;
@@ -29,20 +25,27 @@
 
 /*section1*/
 .section1{
-    height: 535px;
+    min-height: 535px;
     padding-top: 60px;
+}
+@media all and (max-width:500px){
+    .section1{
+        min-height: 535px;
+        padding-top: 100px;
+    }
+}
+.section1 img{
+    max-width: 94%;
 }
 .banner-txt{
     display: block;
     margin: 0 auto;
 }
-.banner-circle{
 
-}
 /*section2*/
 .section2{
-    padding: 50px;
-    height: 700px;
+    padding: 50px 0;
+    min-height: 700px;
 }
 .section2 h1{
     font-size: 40px;
@@ -64,6 +67,7 @@
     height: 385px;
     float: left;
     margin: 20px 54px;
+    transition: 0.3s;
 }
 .index-system-box .card1{
     background: #158a8f;
@@ -88,9 +92,41 @@
     padding: 20px 15px;
     text-align: left;
 }
+
+@media all and (max-width: 1100px){
+    .index-system-card{
+        width: 225px;
+        height: 385px;
+        float: left;
+        margin: 20px 35px;
+    }
+}
+@media all and (max-width: 900px){
+    .index-system-card{
+        width: 225px;
+        height: 385px;
+        float: left;
+        margin: 10px 4px;
+    }
+}
+@media all and (max-width: 700px){
+    .section2 p{
+        font-size: 16px;
+        width: 80%;
+        margin: 30px auto;
+        text-align: left;
+    }
+    .index-system-card{
+        width: 225px;
+        height: 385px;
+        float: none;
+        margin: 10px 20px;
+        display: inline-block;
+    }
+}
 /*section3*/
 .section3 {
-    padding: 50px;
+    padding: 50px 0;
     min-height: 200px;
 }
 .section3 h1{
@@ -99,12 +135,13 @@
     color: #fff;
 }
 .section3 img{
-    margin: 30px;
+    margin: 30px auto;
+    max-width: 100%;
 }
 /*section4*/
 .section4{
     background: #dcdcdc;
-    padding: 50px;
+    padding: 50px 0;
     min-height: 600px;
 }
 .section4 h1{
@@ -150,4 +187,68 @@
 }
 .teacher-card .teacher-info p{
     font-size: 13px;
+}
+
+@media all and (max-width: 1000px){
+    .section4 .teacher-box{
+        width: 80%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .section4 .teacher-box .teacher-card{
+        width: 150px;
+        margin:30px 30px;
+        opacity: 0.8;
+    }
+}
+@media all and (max-width: 900px){
+    .section4 .teacher-box{
+        width: 90%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .section4 .teacher-box .teacher-card{
+        width: 150px;
+        margin:20px 20px;
+        opacity: 0.8;
+    }
+}
+@media all and (max-width: 700px){
+    .section4 .teacher-box{
+        width: 90%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .section4 .teacher-box .teacher-card{
+        width: 150px;
+        margin:10px 8px;
+        opacity: 0.8;
+    }
+}
+@media all and (max-width: 600px){
+    .section4 .teacher-box{
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .section4 .teacher-box .teacher-card{
+        width: 150px;
+        margin:10px 30px;
+        opacity: 0.8;
+    }
+}
+@media all and (max-width: 600px){
+    .section4 .teacher-box .teacher-card{
+        width: 150px;
+        margin:10px 10px;
+        opacity: 0.8;
+    }
+}
+@media all and (max-width: 400px){
+    .section4 .teacher-box .teacher-card{
+        width: 150px;
+        margin:10px auto;
+        float: none;
+        opacity: 0.8;
+    }
 }
