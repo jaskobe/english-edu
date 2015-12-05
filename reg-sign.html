@@ -32,13 +32,45 @@
     </nav>
 </header>
 <!--私有样式-->
-
+<link href="style/register.css" rel="stylesheet">
 <!-- 页面内容 -->
 <div class="wrap">
-
+    <div class="reg-banner"></div>
+    <div class="reg-box">
+        <ul class="reg-step-bar">
+            <li style="background: #e58538;color: #fff;">1 填写报名信息</li>
+            <li>2 支付学费</li>
+            <li>3 报名成功</li>
+        </ul>
+        <section class="reg-form">
+            <input type="text" placeholder="请输入姓名">
+            <input type="text" placeholder="请输入手机号码">
+            <input type="text" placeholder="请输入邮箱">
+            <textarea placeholder="留言给封闭班班主任"></textarea>
+            <div class="form-btn reg-btn" onclick="regSelect()">确 定</div>
+            <div class="reg-select-box">
+                <p>感谢提交，请选择</p>
+                <div class="reg-select reg-select-a">我要立即报名</div>
+                <div class="reg-select reg-select-b">等待老师回访</div>
+            </div>
+        </section>
+    </div>
 </div>
+<div class="overlay"></div>
 <!--私有JS-->
+<script>
+    function regSelect(){
+        var o = $(".overlay"),
+            box = $(".reg-select-box");
+        o.show();
+        box.fadeIn();
+        o.click(function(){
+            $(this).fadeOut();
+            box.fadeOut();
+        })
 
+    }
+</script>
 <!--底部导航-->
 <div class="footer">
     <div class="footer-container">

@@ -3,19 +3,23 @@
     width: 100%;
     min-height: 200px;
     overflow: hidden;
-    padding: 30px;
+    padding: 30px 0;
 }
 /*******system-part1*********/
 .system-banner-box{
-    height: 535px;
+    min-height: 535px;
     background: url("../img/teaching-system/banner.png") no-repeat center;
     background-size: cover;
     color: #fff;
     padding-top: 160px;
 }
+.system-banner-txt{
+    float: right;
+    max-width: 100%;
+}
 .system-banner-top,
 .system-banner-bot{
-    width: 560px;
+    max-width: 560px;
     text-align: left;
 
 }
@@ -30,14 +34,28 @@
     margin-top: 10px;
 }
 
+@media all and (max-width: 620px){
+    .system-banner-box{
+        padding-top: 80px;
+    }
+    .system-banner-txt{
+        float:none;
+        max-width: 100%;
+    }
+}
 /*******system-part2*********/
 .system-part2{
     background: #158a8f;
-    height: 380px;
+    min-height: 380px;
     color: #fff;
 }
 .system-part2-content{
     margin-top: 50px;
+}
+@media all and (max-width: 620px){
+    .system-part2-content{
+        margin-top: 30px;
+    }
 }
 .book-box{
     width: 195px;
@@ -73,13 +91,43 @@
     display: block;
     margin: 10px auto;
 }
+
+@media all and (max-width: 1100px){
+    .book-box{
+        display: none;
+    }
+    .system-part2-content-box{
+        width: 100%;
+        float: none;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+}
+@media all and (max-width: 720px){
+    .system-part2-content-box li{
+        float: left;
+        width: 50%;
+    }
+    .system-banner-txt{
+        float: right;
+        max-width: 100%;
+    }
+}
+@media all and (max-width:500px){
+    .system-part2-content-box{
+        font-size: 16px;
+    }
+}
+/*******system-part3*********/
 .zk-box{
     width: 100%;
-    height: 135px;
+    min-height: 135px;
     overflow: hidden;
     padding: 15px;
     color: #fff;
     margin-top: 2px;
+    padding-left: 100px;
+    position: relative;
 }
 .zk-box1{
     background: #32a8a3;
@@ -94,11 +142,11 @@
     background: #cca229;
 }
 .zk-box-left{
-    float: left;
     width: 100px;
     font-size: 18px;
     font-weight: bold;
-
+    position: absolute;
+    left: 10px;
 }
 .zk-box-left img{
     display: block;
@@ -108,9 +156,17 @@
 .zk-box-right{
     padding: 10px;
     float: right;
-    width:850px;
+    width: 100%;
     text-align: left;
     font-size: 14px;
 }
-/*******system-part3*********/
+@media all and (max-width: 520px){
+    .zk-box{
+        padding: 10px;
+        padding-left: 100px;
+    }
+    .ts-block{
+        display: none;
+    }
+}
 /*******system-part4*********/

@@ -13,7 +13,7 @@ $(document).ready(function(){
 
     //        回到顶部
     $(window).scroll(function(){
-        if($(window).scrollTop() >= 700){
+        if($(window).scrollTop() >= 500){
             $('.back-top').fadeIn(300);
         }else{
             $('.back-top').fadeOut(300);

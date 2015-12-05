@@ -11,6 +11,7 @@
 .oc-card-box{
     width: 100%;
     overflow: hidden;
+    margin: 0 auto;
     margin-top: 20px;
 }
 .oc-card{
@@ -41,6 +42,50 @@
     position: absolute;
     left: 5px;;
     bottom: 10px;
+}
+@media all and (max-width: 1100px){
+    .oc-card-box{
+        width: 84%;
+    }
+}
+@media all and (max-width: 900px){
+    .oc-card-box{
+        width:100%;
+    }
+    .oc-card{
+        width: 220px;
+        height: 210px;
+        margin: 5px 5px;
+
+    }
+}
+@media all and (max-width: 700px){
+    .oc-card-box{
+        width:82%;
+    }
+    .oc-card{
+        width: 230px;
+        height: 210px;
+        margin: 5px 5px;
+    }
+}
+@media all and (max-width: 620px){
+    .oc-card-box{
+        width:100%;
+    }
+    .oc-card{
+        width: 230px;
+        height: 210px;
+        margin: 10px 10px;
+    }
+}
+@media all and (max-width: 550px){
+    .oc-card{
+        width: 230px;
+        height: 210px;
+        float: none;
+        margin: 10px auto;
+    }
 }
 .oc-part1{
     background: url("../img/online-courses/1.jpg") no-repeat center;

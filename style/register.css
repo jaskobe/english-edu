@@ -1,0 +1,140 @@
+.reg-banner{
+    width: 100%;
+    height: 260px;
+    background: #1f455f;
+}
+.reg-box{
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 400px;
+    padding-bottom: 80px;
+}
+.reg-step-bar{
+    display:flex;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+.reg-step-bar>li{
+    display: block;
+    height: 40px;
+    float: left;
+    margin: 0 2px;
+    background: #cfcfcf;
+    color: #555;
+    flex: 1;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.reg-form{
+    display: block;
+    width: 50%;
+    margin: 30px auto;
+    position: relative;
+}
+.reg-form input[type=text]{
+    width: 100%;
+    height: 35px;
+    border: #e58538 solid 1px;
+    padding-left: 30px;
+    margin: 5px 0 ;
+    outline: none;
+}
+.reg-form textarea{
+    width: 100%;
+    max-width: 100%;
+    height: 150px;
+    max-height: 150px;
+    border: #e58538 solid 1px;
+    padding-left: 10px;
+    margin: 5px 0;
+    outline: none;
+}
+.reg-btn{
+    margin: 5px 0;
+}
+.reg-btn:hover{
+    background: #dd6a2a;
+
+}
+.reg-btn:active{
+    background: #d25022;
+}
+.reg-select-box{
+    margin: 50px auto;
+    width:100%;
+    height: 200px;
+    background: #fafafa;
+    position: absolute;
+    top:0;
+    border-radius: 2px;
+    box-shadow: 4px 4px 4px #6F6E6E;
+    display: none;
+    z-index: 9999;
+    padding-top: 20px;
+}
+.reg-select-box p{
+    font-size: 18px;
+    color: #e58538;
+    line-height: 50px;
+}
+.reg-select-box .reg-select{
+    width: 80%;
+    height: 35px;
+    margin: 15px auto;
+    color: #fff8ca;
+    line-height: 35px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.reg-select-box .reg-select-a{
+    background: #e58538;
+}
+.reg-select-box .reg-select-a:hover{
+    background: #e56923;
+}
+.reg-select-box .reg-select-a:active{
+    background: #e5451f;
+}
+.reg-select-box .reg-select-b{
+    background: #a38c7a;
+}
+.reg-select-box .reg-select-b:hover{
+    background: #92827c;
+}
+.reg-select-box .reg-select-b:active{
+    background: #8b6754;
+}
+
+/*支付页面*/
+.pay-txt{
+    color: #888;
+    font-size: 16px;
+    margin: 50px 0 ;
+}
+.pay-btn{
+    width: 340px;
+    height: 40px;
+    line-height: 40px;
+    background: #ff6d00;
+    cursor: pointer;
+}
+.pay-btn:hover{
+    background: #ff5008;
+}
+.pay-btn:active{
+    background: #ff3401;
+}
+
+/*报名成功*/
+.img-block{
+    width: 100px;
+    height: 100px;
+    background: #e58538;
+    margin: 100px auto 20px auto;
+}
+.reg-txt{
+    font-size: 18px;
+    color: #e58538;
+}

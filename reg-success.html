@@ -32,13 +32,26 @@
     </nav>
 </header>
 <!--私有样式-->
-
+<link href="style/register.css" rel="stylesheet">
 <!-- 页面内容 -->
 <div class="wrap">
-
+    <div class="reg-banner"></div>
+    <div class="reg-box">
+        <ul class="reg-step-bar">
+            <li style="background: #e58538;color: #fff;">1 填写报名信息</li>
+            <li>2 支付学费</li>
+            <li>3 报名成功</li>
+        </ul>
+        <div class="img-block"></div>
+        <p class="reg-txt">报名成功！</p>
+    </div>
 </div>
 <!--私有JS-->
-
+<script>
+    $(document).ready(function(){
+        $('html,body').animate({scrollTop: '330px'}, 500);
+    })
+</script>
 <!--底部导航-->
 <div class="footer">
     <div class="footer-container">

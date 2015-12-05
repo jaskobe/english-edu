@@ -32,13 +32,22 @@
     </nav>
 </header>
 <!--私有样式-->
-
+<link href="style/register.css" rel="stylesheet">
 <!-- 页面内容 -->
 <div class="wrap">
-
+    <div class="reg-banner"></div>
+    <div class="reg-box" style="padding-top: 100px">
+        <img src="img/alipay.png" style="width: 220px; ">
+        <p class="pay-txt">你需要支付学费<span>1000</span>元</p>
+        <div class="form-btn pay-btn">立即支付</div>
+    </div>
 </div>
 <!--私有JS-->
-
+<script>
+    $(document).ready(function(){
+        $('html,body').animate({scrollTop: '330px'}, 500);
+    })
+</script>
 <!--底部导航-->
 <div class="footer">
     <div class="footer-container">
