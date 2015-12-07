@@ -39,17 +39,62 @@
     <div class="reg-box">
         <ul class="reg-step-bar">
             <li>1 填写报名信息</li>
-            <li>2 报名须知</li>
-            <li  style="background: #e58538;color: #fff;">3 报名成功</li>
+            <li style="background: #e58538;color: #fff;">2 报名须知</li>
+            <li>3 报名成功</li>
         </ul>
-        <img src="img/register/face-success.png" class="reg-face" style="margin: 120px 0 40px 0">
-        <p class="reg-txt">报名成功！</p>
+        <div class="reg-info-container">
+            <h1 class="reg-info-title">报名封闭班注意事项，请仔细阅读</h1>
+            <p class="reg-info-article">
+                报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知报名须知
+            </p>
+            <div class="ez-checkbox-wrap">
+                <a class="ez-checkbox" id="agree"></a>
+                我已阅读注意事项并接受以上条款
+            </div>
+            <div class="ez-checkbox-wrap">
+                <a class="ez-checkbox" id="disagree"></a>
+                我不同意以上条款
+            </div>
+            <a class="form-btn agree-btn">确定</a>
+        </div>
+
     </div>
 </div>
 <!--私有JS-->
 <script>
     $(document).ready(function(){
         $('html,body').animate({scrollTop: '330px'}, 500);
+
+        var btn = $(".agree-btn"),
+            a = $("#agree"),
+            b = $("#disagree");
+        var isagree = "none";
+
+//        同意
+        a.click(function(){
+            isagree = "yes";
+            a.addClass("ez-checkbox-checked");
+            b.removeClass("ez-checkbox-checked");
+        });
+//        不同意
+        b.click(function(){
+            isagree = "no";
+            $(this).addClass("ez-checkbox-checked");
+            a.removeClass("ez-checkbox-checked");
+        });
+//        确定
+        btn.click(function(){
+            if(isagree == "yes"){
+                //如果同意跳转至支付宝
+                window.location="#";
+            }else if(isagree == "no"){
+                //如果不同意跳转到报名页面3，等待老师回访页
+                window.location="#";
+            }else{
+                alert("请选择同意与否。")
+            }
+        })
+
     })
 </script>
 <!--底部导航-->

@@ -11,6 +11,9 @@ h1,h2,h3,h4{
     margin: 0;
     padding: 0;
 }
+a,a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+}
 .left{
     float: left;
 }
@@ -18,6 +21,7 @@ h1,h2,h3,h4{
     float: right;
 }
 .form-btn{
+    display: block;
     background: #e58538;
     color: #fff;
     line-height: 40px;
