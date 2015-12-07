@@ -37,10 +37,7 @@
 .section1 img{
     max-width: 94%;
 }
-.banner-txt{
-    display: block;
-    margin: 0 auto;
-}
+
 
 /*section2*/
 .section2{
@@ -55,8 +52,10 @@
 }
 .section2 p{
     font-size: 16px;
-    margin: 50px;
+    margin: 50px auto;
     text-align: left;
+    width: 85%;
+    font-weight: bold;
 }
 .index-system-box{
     width: 100%;
@@ -68,6 +67,13 @@
     float: left;
     margin: 20px 54px;
     transition: 0.3s;
+}
+.index-system-card h1 {
+    font-size: 28px;
+    font-weight: bolder;
+    color: #fff;
+    margin: 5px 0;
+    text-align: center;
 }
 .index-system-box .card1{
     background: #158a8f;
@@ -82,7 +88,7 @@
     color: #ce2e21;
 }
 .index-system-card img{
-    margin: 25px auto;
+    margin:0 auto 25px auto;
 }
 .index-system-card-txt{
     width: 190px;

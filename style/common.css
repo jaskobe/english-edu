@@ -257,7 +257,7 @@ a,a:link,a:visited,a:hover,a:active{
     position: fixed;
     width: 60px;
     height: 60px;
-    background: rgb(255, 133, 23);
+    background: rgba(35, 35, 35, 0.47);
     right: 20px;
     bottom: 20px;
     border-radius: 50%;
@@ -265,12 +265,22 @@ a,a:link,a:visited,a:hover,a:active{
     cursor: pointer;
     display: none;
 }
-.back-top .fa-rocket{
+.back-top .back-top-icon{
     color: #fff;
-    font-size: 35px;
-    line-height: 65px;
-    transform: rotate(-44deg);
+    font-size: 25px;
+    line-height: 57px;
+    transition: 0.3s;
 }
 .back-top:hover{
     opacity: 1;
 }
+/*.back-top:hover .back-top-icon{*/
+    /*color: #e58537;*/
+/*}*/
+
+.banner-txt{
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+}
+

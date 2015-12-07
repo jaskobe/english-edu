@@ -3,6 +3,7 @@
     height: 532px;
     background: url("../img/online-courses/banner-bg.jpg") no-repeat center;
     background-size: cover;
+    padding-top:120px;
 }
 .oc-part{
     padding: 30px 10px;

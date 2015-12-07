@@ -2,6 +2,7 @@
     background:url("../img/teachers/teacher-banner.jpg") no-repeat center;
     background-size: cover;
     height: 500px;
+    padding-top: 80px;
 }
 .teacher-part-2{
     background: #ebebeb;
