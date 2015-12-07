@@ -1,7 +1,7 @@
 .oc-banner-box{
     width: 100%;
     height: 532px;
-    background: url("../img/online-courses/banner.jpg") no-repeat center;
+    background: url("../img/online-courses/banner-bg.jpg") no-repeat center;
     background-size: cover;
 }
 .oc-part{
