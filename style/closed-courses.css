@@ -1,0 +1,164 @@
+.cc-banner-box{
+    width: 100%;
+    height: 537px;
+    background: url("../img/closed-courses/cc-banner.png") center no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+.cc-part{
+    width: 100%;
+    overflow: hidden;
+}
+.cc-title{
+    font-size: 36px;
+    font-weight: bolder;
+}
+/*part1*/
+.cc-part-1{
+    height: 410px;
+    background: #e48637;
+}
+.yellow{
+    color: #fbf100;
+}
+.cc-part-1 ul{
+    width: 45%;
+    float: left;
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.cc-part-1 ul>li{
+    margin: 25px 0;
+}
+.cc-part-1 ul>li>p{
+    text-align: left;
+}
+.cc-part-1 i{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
+}
+.cc-icon-clock{
+    background: url("../img/closed-courses/cc-icon-clock.png") center no-repeat;
+    background-size: cover;
+}
+.cc-icon-local{
+    background: url("../img/closed-courses/cc-icon-local.png") center no-repeat;
+    background-size: cover;
+}
+.cc-icon-pen{
+    background: url("../img/closed-courses/cc-icon-pen.png") center no-repeat;
+    background-size: cover;
+}
+.toreg-btn{
+    display: block;
+    background: #fee500;
+    width: 200px;
+    height: 50px;
+    color: #e48637;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    line-height:50px;
+    transition: 0.3s;
+    margin-left: 70px;
+}
+.toreg-btn:hover,
+.toreg-btn:active{
+    text-decoration: none;
+    color: #e48637;
+    background: #fecf0b;
+}
+
+.cake-img{
+    float: right;
+    width: 45%;
+    margin-top:80px;
+}
+
+/*part2*/
+.cc-part-2{
+    background: #fff;
+}
+.cc-part-2 ul{
+    width: 100%;
+    overflow: hidden;
+    margin: 30px 0;
+    font-size: 16px;
+}
+.cc-part-2 ul>li{
+    float: left;
+    width: 22%;
+    margin: 1%;
+}
+.cc-part-2 ul>li>img{
+    width: 226px;
+}
+.cc-part-2 ul>li>p{
+    width: 80%;
+    margin: 0 auto;
+}
+.blue-divide{
+    width: 80%;
+    height: 5px;
+    background: #c7e3e5;
+    margin: 15px auto;
+}
+
+/*part3*/
+.cc-part-3{
+    height: 480px;
+    background: #B7463E;
+    padding-top: 25px;
+}
+.cc-part-3 ul{
+    display: flex;
+    margin-top: 50px;
+}
+.cc-part-3 ul>li{
+    display: block;
+    flex: 1;
+    height: 280px;
+    margin: 15px;
+    background: url("../img/closed-courses/reason-card-bg.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.cc-part-3 ul>li>img{
+    margin-top: 23px;
+}
+.cc-part-3 ul>li>p{
+    width: 84%;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 14px;
+}
+.cc-part-3 ul>li>a{
+    width: 84%;
+    height: 30px;
+    background: url("../img/closed-courses/reason-click-bg.png") right no-repeat;
+    background-size: cover;
+    color: #fff;
+    line-height: 30px;
+    display: block;
+    border-radius: 3px;
+    transition: 0.3s;
+    text-align: left;
+    padding-left: 15px;
+    position: absolute;
+    bottom: 15px;
+    left:8%;
+
+}
+.cc-part-3 ul>li>a:hover{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
