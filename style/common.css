@@ -55,10 +55,10 @@ a,a:link,a:visited,a:hover,a:active{
     position: relative;
 }
 .navbar .nav-logo{
-    width: 140px;
+    width: 240px;
     height: 70px;
     background: url("../img/logo.png") center no-repeat;
-    background-size: 120px 50px;
+    background-size: 220px 50px;
     float: left;
 }
 .navbar .nav-list{
