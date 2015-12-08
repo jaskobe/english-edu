@@ -161,4 +161,23 @@
 
 }
 
+/*part4*/
+.cc-part-4{
+    padding: 25px 0;
+}
+.cc-part-4 ul{
+    margin-top: 30px;
+    display: flex;
+}
+.cc-part-4 ul>li{
+    flex: 1;
+    font-size: 14px;
+    color: #787878;
+    line-height: 50px;
+}
+.cc-part-4 ul>li>img{
+    display: block;
+    margin: 0 auto;
+}
 
+/*part5*/
