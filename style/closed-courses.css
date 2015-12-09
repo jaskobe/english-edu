@@ -181,3 +181,132 @@
 }
 
 /*part5*/
+.cc-part-5{
+    background: #49c9ad;
+    padding-top: 10px;
+    color: #fff;
+}
+.cc-part-5 li{
+    position: relative;
+    text-align: left;
+    float: left;
+    width: 25%;
+    margin: 30px 4%;
+    font-size: 18px;
+    padding-top: 60px;
+}
+.cc-part-5 li>img{
+    position: absolute;
+    right: 0;
+}
+.cc-part-5 li .burger{
+    top: 20px;
+}
+.cc-part-5 li .chicken{
+    top:0;
+}
+.cc-part-5 li .soup{
+    top:14px;
+}
+
+/*part6*/
+.cc-part-6{
+    padding-top: 25px;
+    min-height: 500px;
+    background-color: #fff;
+}
+.teacher-list{
+    overflow: hidden;
+    float: left;
+    width: 300px;
+    height: 155px;
+    margin: 15px;
+    transition: 0.3s;
+    padding: 10px;
+    cursor: default;
+}
+.teacher-list:hover{
+    box-shadow: 2px 2px 6px rgba(98, 91, 96, 0.38);
+}
+.teacher-list .teacher-left{
+    width: 60px;
+    overflow: hidden;
+    float: left;
+}
+.teacher-list img{
+    width: 60px;
+    height: 60px;
+}
+.teacher-list .teacher-right{
+    float: left;
+    width: 205px;
+    margin-left: 15px;
+    color: #787878;
+
+}
+.teacher-list .teacher-right h1{
+    margin: 0;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: left;
+    line-height: 20px;
+}
+.teacher-list .teacher-right p{
+    font-size: 12px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+/*part7*/
+.cc-part-7{
+    padding-top: 65px;
+    min-height: 500px;
+    background: #dcdcdc;
+}
+
+/*part8*/
+.cc-part-8{
+    padding-top: 30px;
+    text-align: center;
+}
+.cc-part-8 img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/*part9*/
+.cc-part-9{
+    background: #656565;
+}
+.class-view{
+    height: 400px;
+    background: url("../img/closed-courses/class-view.png") center no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    transition: 0.3s;
+    line-height: 400px;
+}
+.class-view:hover{
+    opacity: 1;
+}
+.class-view p{
+    font-size: 67px;
+    font-weight: bolder;
+    color: #fff;
+}
+.gosign-block{
+    height: 150px;
+    line-height: 150px;
+    font-size: 36px;
+    font-weight: bolder;
+    background: #fee500;
+    color: #e58738;
+    transition: 0.3s;
+}
+.gosign-block:hover{
+    background: #fed90c;
+    color: #e55a1b;
+}
+a:hover,a:link,a:visited{
+    text-decoration: none;
+}
