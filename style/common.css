@@ -8,6 +8,9 @@ div,section,aside,p,article{
 ul{
     display: block;
 }
+li{
+    display: inline;
+}
 ul,li{
     list-style: none;
     padding: 0;
