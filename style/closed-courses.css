@@ -112,7 +112,8 @@
 /*part3*/
 .cc-part-3{
     height: 480px;
-    background: #B7463E;
+    background: url("../img/closed-courses/runway.png") center no-repeat;
+    background-size: cover;
     padding-top: 25px;
 }
 .cc-part-3 ul{
@@ -261,9 +262,54 @@
 .cc-part-7{
     padding-top: 65px;
     min-height: 500px;
-    background: #dcdcdc;
+    background: url("../img/closed-courses/gray-banner.png") center no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
 }
-
+.shelf-wrap{
+    margin-top: 65px;
+}
+.shelf{
+    width: 100%;
+    height: 200px;
+    background: url("../img/closed-courses/shelf.png") bottom no-repeat;
+    background-size: contain;
+    margin: 20px 0;
+}
+.shelf-container{
+    width: 74%;
+    margin: 0 auto;
+}
+.shelf-card{
+    width: 182px;
+    height: 170px;
+    background: #fff;
+    margin:0 26px;
+    float: left;
+    -moz-box-shadow: 0px 10px 10px rgba(29,29,29,0.6);
+    -webkit-box-shadow: 0px 10px 10px rgba(29,29,29,0.6);
+    box-shadow: 0px 10px 10px rgba(29,29,29,0.6);
+    cursor: auto;
+    transition: 0.3s;
+    position: relative;
+}
+.shelf-card:hover{
+    box-shadow: 0px 10px 10px rgba(29,29,29,0.8);
+}
+.shelf-card-img{
+    width: 100%;
+    height: 115px;
+}
+/*.shelf-card-cover{*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*height: 115px;*/
+    /*top:0;*/
+/*}*/
+.shelf-card p{
+    font-size: 12px;
+    line-height: 50px;
+}
 /*part8*/
 .cc-part-8{
     padding-top: 30px;
