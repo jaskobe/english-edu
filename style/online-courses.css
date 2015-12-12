@@ -45,6 +45,10 @@
     bottom: 10px;
 }
 @media all and (max-width: 1100px){
+    .oc-banner-box{
+        height: 465px;
+        padding-top:120px;
+    }
     .oc-card-box{
         width: 84%;
     }
@@ -61,6 +65,10 @@
     }
 }
 @media all and (max-width: 700px){
+    .oc-banner-box{
+        height: 400px;
+        padding-top:120px;
+    }
     .oc-card-box{
         width:82%;
     }
@@ -80,12 +88,52 @@
         margin: 10px 10px;
     }
 }
-@media all and (max-width: 550px){
+@media all and (max-width: 580px){
+    .oc-banner-box{
+        height:300px;
+        padding-top:90px;
+    }
     .oc-card{
-        width: 230px;
-        height: 210px;
+        width: 90%;
+        height: 130px;
         float: none;
         margin: 10px auto;
+    }
+    .oc-card img{
+        width: 50%;
+        float: left;
+        height: 110px;
+    }
+    .oc-card .price-tag{
+        right: 5px;
+        text-align: right;
+    }
+    .oc-card p{
+        width: 45%;
+        float: left;
+        margin-left: 5%;
+    }
+}
+@media all and  (max-width: 400px){
+    .oc-card{
+        width: 280px;
+        height: 115px;
+        float: none;
+        margin: 10px auto;
+    }
+    .oc-card img{
+        width: 50%;
+        float: left;
+        height: 93px;
+    }
+    .oc-card .price-tag{
+        right: 5px;
+        text-align: right;
+    }
+    .oc-card p{
+        width: 45%;
+        float: left;
+        margin-left: 5%;
     }
 }
 .oc-part1{

@@ -4,12 +4,33 @@
     height: 500px;
     padding-top: 80px;
 }
+@media all and  (max-width: 1000px){
+    .banner-box{
+        height: 400px;
+    }
+}
+@media all and  (max-width: 800px){
+    .banner-box{
+        height: 350px;
+    }
+}
+@media all and  (max-width: 600px){
+    .banner-box{
+        height: 300px;
+    }
+}
+@media all and  (max-width: 450px){
+    .banner-box{
+        height: 210px;
+        padding-top: 50px;
+    }
+}
 .teacher-part-2{
     background: #ebebeb;
 
 }
 .teacher-box{
-    padding: 30px;
+    padding: 30px 0;
 }
 
 .teacher-card-box{
@@ -27,6 +48,7 @@
     float: left;
     box-shadow: 2px 2px 6px rgba(219, 219, 219, 0.7);
     overflow: hidden;
+    border-radius: 5px;
 }
 .teacher-card:hover{
     box-shadow: 2px 2px 6px rgb(197, 197, 197);
@@ -58,3 +80,56 @@
 .teacher-info{
     font-size: 12px;
 }
+.teacher-card .txt-box{
+    overflow: hidden;
+    padding-bottom: 5px;
+    height: 100%;
+}
+@media all and  (max-width: 1100px){
+    .teacher-card{
+        width: 240px;
+    }
+}
+@media all and  (max-width: 900px){
+    .teacher-card{
+        margin: 15px 35px;
+    }
+}
+@media all and  (max-width: 700px){
+    .teacher-card{
+        width: 45%;
+        margin: 15px 10px;
+    }
+}
+@media all and  (max-width: 500px){
+
+    .teacher-card{
+        width:90%;
+        margin: 15px auto;
+        float: none;
+        height: 180px;
+    }
+    .teacher-card .photo-box{
+        width: 50%;
+        height: 155px;
+        float: left;
+    }
+    .teacher-card .photo-box img{
+        width: 100%;
+        height: 100%;
+    }
+    .teacher-card .txt-box{
+        width: 45%;
+        float: left;
+        margin-left: 5%;
+    }
+}
+@media all and (max-width: 400px) {
+    .teacher-card{
+        width: 100%;
+    }
+    .teacher-card p{
+        padding: 10px 3px;
+    }
+}
+
