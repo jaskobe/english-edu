@@ -59,6 +59,8 @@ a:hover,a:active{
     height: 70px;
     background: #fff;
     position: relative;
+    margin-bottom: 0;
+    border: none;
 }
 .navbar .navbar-wrap{
     max-width: 1000px;

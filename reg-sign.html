@@ -7,13 +7,16 @@
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <title>壹教壹学</title>
     <!-- Bootstrap -->
+    <link href="style/bootstrap.min.css" rel="stylesheet">
     <link href="font/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="style/common.css" rel="stylesheet">
     <link href="style/mui.css" rel="stylesheet">
+    <link href="style/common.css" rel="stylesheet">
     <link href="style/animate.min.css" rel="stylesheet">
+    <link href="style/jquery-confirm.css" rel="stylesheet">
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/mui.min.js"></script>
     <script src="js/common.js"></script>
+    <script src="js/jquery-confirm.min.js"></script>
 </head>
 <body>
 <header class="navbar">
@@ -45,10 +48,10 @@
             <li>3 报名成功</li>
         </ul>
         <section class="reg-form">
-            <input type="text" placeholder="请输入姓名">
-            <input type="text" placeholder="请输入手机号码">
-            <input type="text" placeholder="请输入邮箱">
-            <textarea placeholder="留言给封闭班班主任"></textarea>
+            <input type="text" placeholder="请输入姓名" id='name'>
+            <input type="text" placeholder="请输入手机号码" id='phone'>
+            <input type="text" placeholder="请输入邮箱" id='email'>
+            <textarea placeholder="留言给封闭班班主任" id='content'></textarea>
             <div class="form-btn reg-btn" onclick="regSelect()">确 定</div>
             <div class="reg-select-box">
                 <p>感谢提交，请选择</p>
@@ -61,15 +64,32 @@
 <div class="overlay"></div>
 <!--私有JS-->
 <script>
+
     function regSelect(){
-        var o = $(".overlay"),
-            box = $(".reg-select-box");
-        o.show();
-        box.fadeIn();
+        var name = $('#name'),
+                phone = $('#phone'),
+                email = $('#email'),
+                content = $('#content'),
+                o = $(".overlay"),
+                box = $(".reg-select-box"),
+                sign = $('.reg-select-a'),
+                wait = $('.reg-select-b');
+
+
+        if(name.val()==""||email.val()==""||content.val()==""){
+            $.alert({
+                title:'提示',
+                content:'请先完善报名信息。'
+            })
+        }else{
+            o.show();
+            box.fadeIn();
+        }
         o.click(function(){
             $(this).fadeOut();
             box.fadeOut();
         })
+
 
     }
 </script>
