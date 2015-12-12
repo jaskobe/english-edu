@@ -5,6 +5,24 @@
     background-size: cover;
     padding-top: 50px;
 }
+.cc-banner-box img{
+    max-width: 90%;
+}
+@media all and (max-width: 700px){
+    .cc-banner-box{
+        height: 450px;
+    }
+}
+@media all and (max-width: 500px){
+    .cc-banner-box{
+        height: 400px;
+    }
+}
+@media all and (max-width: 400px){
+    .cc-banner-box{
+        height: 300px;
+    }
+}
 .cc-part{
     width: 100%;
     overflow: hidden;
@@ -13,10 +31,26 @@
     font-size: 36px;
     font-weight: bolder;
 }
+@media all and (max-width: 600px) {
+    .cc-title{
+        font-size: 28px;
+    }
+}
+@media all and (max-width: 450px) {
+    .cc-title{
+        font-size: 22px;
+    }
+}
+@media all and (max-width: 350px) {
+    .cc-title{
+        font-size: 20px;
+    }
+}
 /*part1*/
 .cc-part-1{
-    height: 410px;
+    min-height: 410px;
     background: #e48637;
+    padding: 25px;
 }
 .yellow{
     color: #fbf100;
@@ -27,10 +61,11 @@
     color: #fff;
     text-align: left;
     font-size: 20px;
-    padding-top: 30px;
+    padding-top: 70px;
 }
 .cc-part-1 ul>li{
     margin: 25px 0;
+    display: block;
 }
 .cc-part-1 ul>li>p{
     text-align: left;
@@ -40,19 +75,22 @@
     float: left;
     width: 30px;
     height: 30px;
-    margin: 0 20px;
+
 }
 .cc-icon-clock{
     background: url("../img/closed-courses/cc-icon-clock.png") center no-repeat;
     background-size: cover;
+    margin: 30px 20px;
 }
 .cc-icon-local{
     background: url("../img/closed-courses/cc-icon-local.png") center no-repeat;
     background-size: cover;
+    margin: 0 20px;
 }
 .cc-icon-pen{
     background: url("../img/closed-courses/cc-icon-pen.png") center no-repeat;
     background-size: cover;
+    margin: 0 20px;
 }
 .toreg-btn{
     display: block;
@@ -77,9 +115,50 @@
 .cake-img{
     float: right;
     width: 45%;
-    margin-top:80px;
+    margin-top:30px;
 }
+@media all and (max-width: 700px){
+    .cc-part-1 ul{
+        width: 90%;
+        float: none;
+        margin: 10px auto;
+        padding-top: 10px;
+    }
+    .cake-img{
+        width: 70%;
+        margin: 10px;
+        float: none;
+    }
+    .toreg-btn{
+        margin:0 auto ;
+    }
 
+}
+@media all and (max-width: 500px){
+    .cake-img{
+        width: 90%;
+    }
+    .cc-part-1 ul>li>p{
+        text-align: left;
+        float: left;
+        width: 84%;
+        margin-left: 5%;
+    }
+    .cc-icon-clock{
+        margin: 0;
+    }
+    .cc-part-1 i{
+        margin: 0;
+    }
+}
+@media all and (max-width: 400px){
+    .cc-part-1 ul{
+        width: 100%;
+    }
+    .cc-part-1 ul>li>p{
+        width: 80%;
+    }
+}
 /*part2*/
 .cc-part-2{
     background: #fff;
@@ -96,7 +175,7 @@
     margin: 1%;
 }
 .cc-part-2 ul>li>img{
-    width: 226px;
+    width: 100%;
 }
 .cc-part-2 ul>li>p{
     width: 80%;
@@ -108,22 +187,41 @@
     background: #c7e3e5;
     margin: 15px auto;
 }
-
+@media all and (max-width: 700px){
+    .cc-part-2 ul>li{
+        width: 40%;
+        margin: 2% 5%;
+        min-height: 380px;
+    }
+    .cc-part-2 ul>li>p{
+        font-size: 18px;
+    }
+}
+@media all and (max-width: 500px){
+    .cc-part-2 ul>li{
+        min-height: 300px;
+    }
+    .cc-part-2 ul>li>p{
+        font-size: 16px;
+        text-align: left;
+    }
+}
 /*part3*/
 .cc-part-3{
-    height: 480px;
+    min-height: 480px;
     background: url("../img/closed-courses/runway.png") center no-repeat;
     background-size: cover;
-    padding-top: 25px;
+    padding:25px 0;
 }
 .cc-part-3 ul{
-    display: flex;
     margin-top: 50px;
+    max-width: 100%;
 }
 .cc-part-3 ul>li{
     display: block;
-    flex: 1;
+    width: 133px;
     height: 280px;
+    float: left;
     margin: 15px;
     background: url("../img/closed-courses/reason-card-bg.png") no-repeat center;
     background-size: cover;
@@ -161,6 +259,32 @@
     color: #fff;
 
 }
+@media all and  (max-width: 1000px){
+    .cc-part-3 ul>li{
+        margin: 15px 8px;
+    }
+}
+@media all and  (max-width: 900px){
+    .cc-part-3 ul{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .cc-part-3 ul>li{
+        margin: 15px;
+    }
+}
+@media all and  (max-width: 550px){
+    .cc-part-3 ul>li{
+        width: 45%;
+        margin: 15px 2%;
+    }
+}
+@media all and  (max-width: 445px){
+    .cc-part-3 ul>li{
+        width: 45%;
+
+    }
+}
 
 /*part4*/
 .cc-part-4{
@@ -168,19 +292,30 @@
 }
 .cc-part-4 ul{
     margin-top: 30px;
-    display: flex;
 }
 .cc-part-4 ul>li{
-    flex: 1;
+    float: left;
+    width: 18%;
     font-size: 14px;
     color: #787878;
     line-height: 50px;
+    margin: 10px 5px;
 }
 .cc-part-4 ul>li>img{
     display: block;
     margin: 0 auto;
 }
-
+@media all and (max-width: 750px){
+    .cc-part-4 ul>li{
+        width: 30%;
+    }
+}
+@media all and (max-width: 450px){
+    .cc-part-4 ul>li{
+        width: 45%;
+        margin: 10px 2%;
+    }
+}
 /*part5*/
 .cc-part-5{
     background: #49c9ad;
@@ -209,7 +344,37 @@
 .cc-part-5 li .soup{
     top:14px;
 }
+@media all and (max-width: 900px) {
+    .cc-part-5 li{
+        padding-top: 40px;
+    }
+    .cc-part-5 li>img{
+        width: 50px;
+    }
+}
+@media all and (max-width: 650px) {
+    .cc-part-5 li{
+        padding-top: 0;
+    }
+    .cc-part-5 li>img{
+        display: none;
+    }
+}
+@media all and (max-width: 550px) {
 
+    .cc-part-5 li{
+        position: relative;
+        text-align: left;
+        float: none;
+        width: auto;
+        margin: 30px 4%;
+        font-size: 16px;
+        display: block;
+    }
+}
+@media all and (max-width: 900px) {
+
+}
 /*part6*/
 .cc-part-6{
     padding-top: 25px;
@@ -220,7 +385,7 @@
     overflow: hidden;
     float: left;
     width: 300px;
-    height: 155px;
+    min-height: 155px;
     margin: 15px;
     transition: 0.3s;
     padding: 10px;
@@ -257,6 +422,52 @@
     text-align: left;
     margin-top: 20px;
 }
+@media all and (max-width: 1100px) {
+    .teacher-list{
+        width: 45%;
+        margin: 15px 2%;
+        min-height: 140px;
+    }
+    .teacher-list .teacher-right{
+        width: 70%;
+    }
+}
+@media all and (max-width: 625px) {
+    .teacher-list .teacher-left{
+        width: 100%;
+        float: left;
+        margin: 10px auto;
+    }
+    .teacher-list .teacher-right{
+        width: 100%;
+        margin-left: 0;
+    }
+    .teacher-list .teacher-right h1{
+        text-align: center;
+    }
+    .teacher-list .teacher-right p{
+        margin-top: 10px;
+    }
+}
+@media all and (max-width: 500px){
+    .teacher-list{
+        width: 90%;
+        margin: 5px auto;
+        float: none;
+        display: block;
+    }
+    .teacher-list .teacher-left{
+        float: none;
+    }
+    .teacher-list .teacher-right{
+        width: 80%;
+        margin: 0 auto;
+        float: none;
+    }
+
+}
+
+
 
 /*part7*/
 .cc-part-7{
@@ -271,7 +482,7 @@
 }
 .shelf{
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     background: url("../img/closed-courses/shelf.png") bottom no-repeat;
     background-size: contain;
     margin: 20px 0;
@@ -279,12 +490,13 @@
 .shelf-container{
     width: 74%;
     margin: 0 auto;
+    overflow: hidden;
 }
 .shelf-card{
-    width: 182px;
+    width: 29%;
     height: 170px;
     background: #fff;
-    margin:0 26px;
+    margin:0 2%;
     float: left;
     -moz-box-shadow: 0 10px 10px rgba(29,29,29,0.6);
     -webkit-box-shadow: 0 10px 10px rgba(29,29,29,0.6);
@@ -310,6 +522,60 @@
     font-size: 12px;
     line-height: 50px;
 }
+
+@media all and (max-width: 1000px) {
+    .shelf-container{
+        width: 80%;
+    }
+}
+@media all and (max-width: 900px) {
+    .shelf-container{
+        width: 90%;
+    }
+    .shelf-card{
+        width: 28%;
+        margin: 0 14px;
+    }
+}
+@media all and (max-width: 700px) {
+    .shelf-card{
+        width: 30%;
+        margin: 0 8px;
+    }
+}
+@media all and (max-width: 600px) {
+    .cc-part-7{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .shelf-wrap{
+        margin-top: 30px;
+    }
+    .shelf{
+        background-image: none;
+    }
+    .shelf-container{
+        width: 100%;
+    }
+}
+@media all and (max-width: 540px) {
+    .shelf-card{
+        width: 45%;
+        margin: 10px 8px;
+    }
+}
+@media all and (max-width: 400px) {
+    .shelf-card{
+        width: 70%;
+        margin: 10px auto;
+        float: none;
+    }
+}
+
+/*@media all and (max-width: 900px) {*/
+    /*.shelf-container{*/
+    /*}*/
+/*}*/
 /*part8*/
 .cc-part-8{
     padding-top: 30px;
@@ -355,4 +621,43 @@
 }
 a:hover,a:link,a:visited{
     text-decoration: none;
+}
+
+@media all and (max-width: 1000px) {
+    .class-view{
+        height: 300px;
+        line-height: 300px;
+    }
+    .gosign-block{
+        height: 110px;
+        line-height: 110px;
+    }
+}
+@media all and (max-width: 800px) {
+    .class-view{
+        height: 200px;
+        line-height: 200px;
+    }
+    .class-view p{
+        font-size: 45px;
+    }
+    .gosign-block{
+        height: 80px;
+        font-size: 30px;
+        line-height: 80px;
+    }
+}
+@media all and (max-width: 450px){
+    .class-view{
+        height: 170px;
+        line-height: 170px;
+    }
+    .class-view p{
+        font-size: 35px;
+    }
+    .gosign-block{
+        height: 60px;
+        font-size: 22px;
+        line-height: 60px;
+    }
 }
