@@ -214,7 +214,7 @@
     padding:25px 0;
 }
 .cc-part-3 ul{
-    margin-top: 50px;
+    margin-top: 20px;
     max-width: 100%;
 }
 .cc-part-3 ul>li{
@@ -237,22 +237,20 @@
     margin-top: 50px;
     font-size: 14px;
 }
-.cc-part-3 ul>li>a{
-    width: 84%;
-    height: 30px;
+.cc-part-3 .online-reg{
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
     background: url("../img/closed-courses/reason-click-bg.png") right no-repeat;
-    background-size: cover;
+    background-size:contain;
     color: #fff;
-    line-height: 30px;
+    line-height: 45px;
     display: block;
-    border-radius: 3px;
+    border-radius: 2px;
     transition: 0.3s;
     text-align: left;
-    padding-left: 15px;
-    position: absolute;
-    bottom: 15px;
-    left:8%;
-
+    padding-left:20px;
+    margin: 0 auto;
 }
 .cc-part-3 ul>li>a:hover{
     text-decoration: none;
@@ -398,6 +396,7 @@
     width: 60px;
     overflow: hidden;
     float: left;
+    border-radius: 50%;
 }
 .teacher-list img{
     width: 60px;

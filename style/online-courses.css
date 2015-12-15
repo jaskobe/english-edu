@@ -116,7 +116,7 @@
 }
 @media all and  (max-width: 400px){
     .oc-card{
-        width: 280px;
+        width: 100%;
         height: 115px;
         float: none;
         margin: 10px auto;
